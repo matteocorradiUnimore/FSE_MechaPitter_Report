@@ -105,3 +105,32 @@ git push --set-upstream origin nome-del-branch
 - Salvatore Cintoli  
 - Matteo Corradi  
 - Matteo Grisendi
+
+---
+
+## 💾 Come salvare e inviare modifiche su GitHub (add, commit, push)
+
+Ogni volta che modifichi un file (es. `main.tex`) e vuoi **salvare le modifiche nel progetto**, devi eseguire questi comandi:
+
+```bash
+git add .
+git commit -m "Descrizione chiara della modifica"
+git push
+```
+
+### 🔁 Cosa fa ciascun comando:
+- `git add .` → seleziona tutti i file modificati
+- `git commit -m "..."` → crea un punto di salvataggio con un messaggio
+- `git push` → invia le modifiche su GitHub
+
+👉 Esegui questi 3 comandi ogni volta che vuoi aggiornare il repository con le tue modifiche locali.
+
+**Esempio:**
+
+```bash
+git add .
+git commit -m "Aggiunta tabella pianificazione"
+git push
+```
+
+In questo modo tutti i membri del team vedranno subito le modifiche online.
