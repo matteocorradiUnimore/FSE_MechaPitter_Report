@@ -134,3 +134,56 @@ git push
 ```
 
 In questo modo tutti i membri del team vedranno subito le modifiche online.
+
+---
+
+## 🔄 Come aggiornare la tua copia locale con le modifiche fatte da altri
+
+Se un altro membro del team modifica dei file (come `main.tex`) e li invia su GitHub, **tu non ricevi automaticamente quelle modifiche**.
+
+Per aggiornare la tua copia locale ed essere allineato con il repository remoto, esegui:
+
+```bash
+git pull
+```
+
+### Quando usare `git pull`:
+- Prima di iniziare a lavorare, così hai l'ultima versione aggiornata
+- Dopo che una pull request è stata accettata su GitHub
+- Ogni volta che vuoi sincronizzare il tuo progetto con la versione online
+
+---
+
+## 🕓 È possibile recuperare versioni precedenti?
+
+Sì! Git tiene traccia di **tutti i salvataggi (commit)**.
+
+Per vedere lo storico:
+```bash
+git log
+```
+
+Per annullare una modifica recente o tornare a una versione precedente:
+```bash
+git checkout <ID-del-commit>
+```
+
+> ⚠️ Attenzione: questi comandi sono avanzati. Chiedi al responsabile del progetto prima di usarli se non sei sicuro.
+
+Per annullare l'ultima modifica locale non ancora inviata:
+```bash
+git restore nomefile
+```
+
+---
+
+## 🧠 Riepilogo: i comandi fondamentali
+
+| Azione                        | Comando                                  |
+|------------------------------|-------------------------------------------|
+| Clonare il progetto          | `git clone <link>`                        |
+| Creare un nuovo branch       | `git checkout -b nome-branch`            |
+| Aggiungere modifiche         | `git add .`                               |
+| Salvare le modifiche         | `git commit -m "messaggio"`              |
+| Inviare modifiche su GitHub  | `git push`                                |
+| Scaricare modifiche da GitHub| `git pull`                                |
