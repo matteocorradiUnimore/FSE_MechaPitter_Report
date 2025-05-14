@@ -258,3 +258,67 @@ git restore nomefile
 | Salvare le modifiche         | `git commit -m "messaggio"`              |
 | Inviare modifiche su GitHub  | `git push`                                |
 | Scaricare modifiche da GitHub| `git pull`                                |
+
+---
+
+## 🌿 Cos'è un Branch (ramo) in Git?
+
+Un **branch** è una **copia separata del progetto**, dove puoi lavorare senza toccare direttamente il file originale. Serve per sperimentare, correggere o sviluppare in sicurezza.
+
+### ✅ A cosa serve?
+Per lavorare in parallelo agli altri senza rischiare di rompere qualcosa nel file principale (`main.tex`).
+
+### 🧪 Esempio:
+Voglio aggiungere una sezione al Capitolo 3 ma non so se andrà bene. Creo un branch:
+
+```bash
+git checkout -b aggiunta-capitolo-3
+```
+
+Faccio le modifiche, poi salvo:
+
+```bash
+git add .
+git commit -m "Aggiunta sezione Capitolo 3"
+git push --set-upstream origin aggiunta-capitolo-3
+```
+
+Ora la mia modifica è salvata su un branch separato, nessuno viene toccato.
+
+---
+
+## 📬 Cos'è una Pull Request (PR)?
+
+Una **Pull Request** è una **richiesta di unione**: "Voglio unire le mie modifiche nel ramo principale".
+
+### ✅ A cosa serve?
+Per farti **revisionare o approvare** le modifiche prima che entrino nel file principale.
+
+### 🔄 Come si fa:
+1. Dopo il `push`, vai su GitHub
+2. Ti apparirà un bottone: **"Compare & pull request"**
+3. Clicca, scrivi cosa hai modificato
+4. Clicca su **"Create pull request"**
+
+Altri membri del team potranno:
+- Vedere ogni riga modificata
+- Lasciare commenti
+- Approvare o chiedere modifiche
+
+### ✅ Se tutto va bene
+- Si clicca **"Merge pull request"**
+- Le modifiche vengono aggiunte nel branch `main`
+
+---
+
+## 🧠 Quando usare branch e PR?
+
+| Situazione                              | Usa branch e PR? |
+|-----------------------------------------|------------------|
+| Piccola modifica personale e sicura     | ❌ No            |
+| Grande cambiamento o rischio di errore  | ✅ Sì            |
+| Collaborazione con commenti e revisioni | ✅ Sì            |
+
+---
+
+✅ Usando `branch` + `pull request`, lavori in modo professionale e sicuro.
