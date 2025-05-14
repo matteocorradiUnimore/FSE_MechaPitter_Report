@@ -1,3 +1,74 @@
+
+---
+
+## 📚 Concetti base di Git e GitHub
+
+Se non hai mai usato Git o GitHub, ecco una guida semplice per capire cosa stai facendo e perché.
+
+### 🔗 `clone` — Scaricare il progetto sul tuo computer
+
+Quando crei un progetto su GitHub, vive online. Per lavorarci dal tuo PC, devi **clonarlo**:
+
+```bash
+git clone https://github.com/matteocorradiUnimore/FSE_MechaPitter_Report.git
+```
+
+Questo comando crea una **copia locale** del progetto nella tua cartella.
+
+---
+
+### 🌿 `branch` — Una copia parallela per lavorare in sicurezza
+
+Un *branch* è come una versione separata del progetto dove puoi sperimentare, correggere, o aggiungere parti **senza toccare il file originale**.
+
+Per creare e spostarti in un branch:
+```bash
+git checkout -b nome-del-branch
+```
+
+> Esempio: `git checkout -b grafici-analisi`
+
+---
+
+### 🔄 `pull` — Scaricare aggiornamenti dal repository online
+
+Se qualcun altro ha fatto modifiche sul repository, tu non le hai finché non esegui:
+
+```bash
+git pull
+```
+
+Questo scarica e integra nel tuo progetto **tutte le novità da GitHub**.
+
+---
+
+### 📬 `pull request` (PR) — Proporre modifiche da revisionare
+
+Dopo aver fatto modifiche in un branch, puoi creare una **pull request** per chiedere che vengano aggiunte al progetto ufficiale.
+
+1. Vai su GitHub e clicca su **"Compare & pull request"**
+2. Scrivi cosa hai modificato
+3. Clicca su **"Create pull request"**
+
+Chi gestisce il progetto può **revisionarla, commentare o approvarla**.
+
+---
+
+### 🧠 Riepilogo comandi principali
+
+| Azione                       | Comando                                 |
+|------------------------------|------------------------------------------|
+| Scaricare il progetto        | `git clone <link>`                       |
+| Creare un nuovo branch       | `git checkout -b nome-branch`            |
+| Passare a un altro branch    | `git checkout nome-branch`               |
+| Salvare modifiche            | `git add .` + `git commit -m "..."`      |
+| Inviare le modifiche         | `git push --set-upstream origin nome`    |
+| Aggiornare la propria copia  | `git pull`                               |
+| Vedere modifiche fatte       | `git log`                                |
+
+---
+
+✅ Con questi concetti, puoi lavorare con fiducia in un progetto GitHub, anche senza mai toccare comandi avanzati.
 # 📘 Relazione Progetto - Five Strokes Engine(ers)
 
 Benvenuto nella repository ufficiale della relazione LaTeX per il progetto di Sistemi Meccatronici.
