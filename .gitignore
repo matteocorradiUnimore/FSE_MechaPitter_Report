@@ -1,0 +1,20 @@
+# File LaTeX temporanei
+*.aux
+*.log
+*.lof
+*.lot
+*.fls
+*.out
+*.toc
+*.gz
+*.synctex.gz
+*.fdb_latexmk
+*.blg
+*.bbl
+
+# PDF compilato
+*.pdf
+
+# File di sistema (Windows)
+desktop.ini
+Thumbs.db

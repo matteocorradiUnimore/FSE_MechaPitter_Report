@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.14)  14 MAY 2025 16:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.14)  15 MAY 2025 11:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -885,7 +885,7 @@ LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
 
 ]
 Capitolo 1.
-<Images/pianificazioneProdotto.png, id=81, 863.47594pt x 88.07906pt>
+<Images/pianificazioneProdotto.png, id=86, 863.47594pt x 88.07906pt>
 File: Images/pianificazioneProdotto.png Graphic file (type png)
 <use Images/pianificazioneProdotto.png>
 Package pdftex.def Info: Images/pianificazioneProdotto.png  used on input line 108.
@@ -909,7 +909,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 {c:/texlive/2025/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc} <./Images/pianificazioneProdotto.png>]
 
 [6]
-<Images/ganttModificato.png, id=95, 1115.66812pt x 698.61pt>
+<Images/ganttModificato.png, id=100, 1115.66812pt x 698.61pt>
 File: Images/ganttModificato.png Graphic file (type png)
 <use Images/ganttModificato.png>
 Package pdftex.def Info: Images/ganttModificato.png  used on input line 157.
@@ -922,7 +922,7 @@ LaTeX Warning: Float too large for page by 9.33986pt on input line 160.
 
 [7 <./Images/ganttModificato.png>]
 Capitolo 2.
-<Images/progettazioneConcettuale.png, id=102, 1390.44469pt x 140.02313pt>
+<Images/progettazioneConcettuale.png, id=107, 1390.44469pt x 140.02313pt>
 File: Images/progettazioneConcettuale.png Graphic file (type png)
 <use Images/progettazioneConcettuale.png>
 Package pdftex.def Info: Images/progettazioneConcettuale.png  used on input line 168.
@@ -931,122 +931,37 @@ LaTeX Font Info:    Faking \texteuro for font family ntxtlf
 (Font)              in TS1 encoding on input line 180.
 LaTeX Font Info:    Faking \texteuro for font family ntxtlf
 (Font)              in TS1 encoding on input line 180.
-<Images/sesso.png, id=103, 2263.70718pt x 1397.97281pt>
+<Images/sesso.png, id=108, 2263.70718pt x 1397.97281pt>
 File: Images/sesso.png Graphic file (type png)
 <use Images/sesso.png>
 Package pdftex.def Info: Images/sesso.png  used on input line 187.
 (pdftex.def)             Requested size: 204.85846pt x 126.49472pt.
-<Images/fasciaEtà.png, id=104, 2259.94313pt x 1504.11937pt>
+<Images/fasciaEtà.png, id=109, 2259.94313pt x 1504.11937pt>
 File: Images/fasciaEtà.png Graphic file (type png)
 <use Images/fasciaEtà.png>
 Package pdftex.def Info: Images/fasciaEtà.png  used on input line 194.
 (pdftex.def)             Requested size: 204.85846pt x 136.32884pt.
-<Images/impiego.png, id=105, 2259.94313pt x 1370.11874pt>
+<Images/impiego.png, id=110, 2259.94313pt x 1370.11874pt>
 File: Images/impiego.png Graphic file (type png)
 <use Images/impiego.png>
 Package pdftex.def Info: Images/impiego.png  used on input line 201.
 (pdftex.def)             Requested size: 204.85846pt x 124.18343pt.
-<Images/conoscenzaDenocciolatore.png, id=106, 2263.70718pt x 1395.71437pt>
+<Images/conoscenzaDenocciolatore.png, id=111, 2263.70718pt x 1395.71437pt>
 File: Images/conoscenzaDenocciolatore.png Graphic file (type png)
 <use Images/conoscenzaDenocciolatore.png>
 Package pdftex.def Info: Images/conoscenzaDenocciolatore.png  used on input line 213.
 (pdftex.def)             Requested size: 204.85846pt x 126.29037pt.
-<Images/possibileUtilizzo.png, id=107, 2265.96562pt x 1397.22pt>
+<Images/possibileUtilizzo.png, id=112, 2265.96562pt x 1397.22pt>
 File: Images/possibileUtilizzo.png Graphic file (type png)
 <use Images/possibileUtilizzo.png>
 Package pdftex.def Info: Images/possibileUtilizzo.png  used on input line 220.
 (pdftex.def)             Requested size: 204.85846pt x 126.29869pt.
-<Images/frequenzaUtilizzo.png, id=108, 2262.95438pt x 1379.90532pt>
+<Images/frequenzaUtilizzo.png, id=113, 2262.95438pt x 1379.90532pt>
 File: Images/frequenzaUtilizzo.png Graphic file (type png)
 <use Images/frequenzaUtilizzo.png>
 Package pdftex.def Info: Images/frequenzaUtilizzo.png  used on input line 227.
 (pdftex.def)             Requested size: 204.85846pt x 124.90201pt.
-<Images/tipologiaFrutta.png, id=109, 3797.93906pt x 2064.21187pt>
+<Images/tipologiaFrutta.png, id=114, 3797.93906pt x 2064.21187pt>
 File: Images/tipologiaFrutta.png Graphic file (type png)
 <use Images/tipologiaFrutta.png>
-Package pdftex.def Info: Images/tipologiaFrutta.png  used on input line 239.
-(pdftex.def)             Requested size: 455.24411pt x 247.41125pt.
-<Images/situazioniImpiego.png, id=110, 6356.74875pt x 3407.22937pt>
-File: Images/situazioniImpiego.png Graphic file (type png)
-<use Images/situazioniImpiego.png>
-Package pdftex.def Info: Images/situazioniImpiego.png  used on input line 247.
-(pdftex.def)             Requested size: 455.24411pt x 243.98938pt.
-
-
-[8
-
-
-
- <./Images/progettazioneConcettuale.png>]
-
-[9 <./Images/sesso.png> <./Images/fasciaEtà.png> <./Images/impiego.png> <./Images/conoscenzaDenocciolatore.png> <./Images/possibileUtilizzo.png> <./Images/frequenzaUtilizzo.png>]
-
-[10 <./Images/tipologiaFrutta.png> <./Images/situazioniImpiego.png>]
-<Images/caratterizzazioneBisogni.png, id=133, 7142.685pt x 3587.15157pt>
-File: Images/caratterizzazioneBisogni.png Graphic file (type png)
-<use Images/caratterizzazioneBisogni.png>
-Package pdftex.def Info: Images/caratterizzazioneBisogni.png  used on input line 261.
-(pdftex.def)             Requested size: 702.78308pt x 352.93422pt.
-
-
-[11 <./Images/caratterizzazioneBisogni.png>]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 270.
-
-
-[12
-
-
-]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 288.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 14.4pt on input line 288.
-<Images/1bisogni.png, id=152, 2211.01031pt x 3103.84593pt>
-File: Images/1bisogni.png Graphic file (type png)
-<use Images/1bisogni.png>
-Package pdftex.def Info: Images/1bisogni.png  used on input line 292.
-(pdftex.def)             Requested size: 295.90588pt x 415.35434pt.
-
-
-[13 <./Images/1bisogni.png>]
-<Images/8casaQualitàV2.png, id=160, 14613.59625pt x 9411.66188pt>
-File: Images/8casaQualitàV2.png Graphic file (type png)
-<use Images/8casaQualitàV2.png>
-Package pdftex.def Info: Images/8casaQualitàV2.png  used on input line 302.
-(pdftex.def)             Requested size: 702.78308pt x 452.51578pt.
-
-
-LaTeX Warning: Float too large for page by 21.77165pt on input line 305.
-
-
-
-[14 <./Images/8casaQualitàV2.png>]
-
-[15
-
-
-] (./main.aux)
- ***********
-LaTeX2e <2024-11-01> patch level 2
-L3 programming layer <2020/03/25>
- ***********
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 474736E5BE20AD5F14FD16E57F2F06C9;2159.
- ) 
-Here is how much of TeX's memory you used:
- 24133 strings out of 469590
- 440226 string characters out of 5474519
- 850853 words of memory out of 5000000
- 50558 multiletter control sequences out of 15000+600000
- 675663 words of font info for 120 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 75i,8n,117p,1124b,1159s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newtx/ztmb.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newtx/ztmr.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on main.pdf (15 pages, 6794122 bytes).
-PDF statistics:
- 200 PDF objects out of 1000 (max. 8388607)
- 145 compressed objects within 2 object streams
- 36 named destinations out of 1000 (max. 500000)
- 26247 words of extra memory for PDF output out of 29859 (max. 10000000)
-
+Package pdftex.

@@ -286,13 +286,15 @@ In Figura~\ref{fig:caratterizzazioneBisogni} sono riportati i risultati della ca
 \section{Definizione delle specifiche obiettivo e costruzione della Casa della Qualità}
 In questa sezione verrà illustrato il procedimento che porta alla definizione delle specifiche obiettivo, ovvero dei valori misurabili attribuiti alle metriche che il gruppo si prefigge di raggiungere nel prodotto finale e che si suppone possano fornire un vantaggio competitivo al prodotto. Infine si procede alla costruzione della Casa della Qualità.
 \subsection{Definizione dei bisogni cliente}
-Sulla base dei risultati ottenuti dal sondaggio riportati in Sezione \autoref{sec:identificazioneBisogniCliente} ed a seguito di un'approfondita analisi di gruppo, si sono definiti i bisogni riportati nella tabella in Figura~\ref{fig:bisogni}. Ad ogni bisogno individuato è stato attribuito un valore di importanza variabile tra 1-3-5, dove 1 corrisponde ad importanza minore mentre 5 corrisponde ad importanza maggiore.
+Sulla base dei risultati ottenuti dal sondaggio riportati in Sezione \autoref{sec:identificazioneBisogniCliente} ed a seguito di un'approfondita analisi di gruppo, si sono definiti i bisogni riportati nella tabella in Figura~\ref{fig:bisogni}. Ad ogni bisogno individuato è stato attribuito un valore di importanza variabile tra 1-3-5, dove 1 corrisponde ad importanza minore mentre 5 corrisponde ad importanza maggiore. L'importanza indica il grado di priorità del bisogno nell'essere soddisfatto.
 \begin{figure}[H] %[H] serve a forzare l'immagine nella posizione devo metto il codice
     \centering
     \includegraphics[width=0.65\linewidth]{1bisogni.png}
     \caption{Bisogni individuati e relative importanze}
     \label{fig:bisogni}
 \end{figure}
+
+
 
 \newpage
 
@@ -316,18 +318,147 @@ Sulla base dei risultati ottenuti dal sondaggio riportati in Sezione \autoref{se
 \item Rilevamento sicurezza;
 \item Fault check;
 \item Selezione della tipologia di frutto da lavorare;
-\item Inserimento dei frutti nel macchinario;
+\item Inserimento dei frutti;
 \item Orientamento del frutto;
 \item Veicolazione del frutto;
-\item Conversione dell'energia elettrica in energia meccanica;
-\item Conversione del moto rotatorio in moto alterno;
-\item Rimozione del nocciolo dal frutto;
+\item Conversione dell'energia in ingresso in energia utile;
+\item Separazione del nocciolo dal frutto;
 \item Veicolazione del nocciolo;
 \item Veicolazione della polpa;
 \item Espulsione del nocciolo;
 \item Espulsione della polpa.
 \end{itemize}
 
+\section{Ricerca interna}
+
+Per quanto riguarda le funzioni critiche:
+\begin{itemize}
+\item Selezione della tipologia di frutto da  lavorare:
+  \begin{itemize}
+  \item Pulsante;
+  \item Pulsantiera;
+  \item Selettore;
+  \item Touch-screen;
+  \item Rilevatore ottico;
+  \item Comando vocale;
+  \end{itemize}  
+\item Orientamento del frutto:
+  \begin{itemize}
+  \item Stampo;
+  \item Imbuto vibrante;
+  \item Orientamento manuale;
+  \item Rullo;
+  \end{itemize} 
+\item Conversione dell'energia in ingresso in energia utile:
+  \begin{itemize}
+  \item Motore elettrico;
+  \item Motore a combustione interna;
+  \item Sistema a molle e ingranaggi;
+  \item Turbina;
+  \item Pistone pneumatico;
+  \item Pistone oleodinamico;
+  \item Volano;
+  \end{itemize}
+\item Separazione del nocciolo dal frutto:
+  \begin{itemize}
+  \item Forza centrifuga;
+  \item Taglio a filo del frutto;
+  \item Punzone;
+  \item Getto d'acqua;
+  \item Tornio;
+  \item Lama per taglio;
+  \end{itemize}
+\end{itemize}
+
+Per quanto riguarda le funzioni secondarie:
+\begin{itemize}
+\item Ricezione ed accumulo di energia;
+  \begin{itemize}
+  \item Batteria ricaricabile;
+  \item Batteria sostituibile;
+  \item Contenitore pressurizzato;
+  \item Serbatoio carburante;
+  \item Accumulo di energia potenziale;
+  \item Induzione;
+  \item Manovella;
+  \end{itemize}
+\item Logica di controllo;
+  \begin{itemize}
+  \item Arduino;
+  \item PLC;
+  \item Circuito pneumatico;
+  \item Circuito oleodinamico;
+  \item Sistema meccanico;
+  \item Raspberry;
+  \end{itemize}
+\item Rilevamento sicurezza:
+  \begin{itemize}
+  \item Sensore ottico;
+  \item Fine corsa;
+  \item Correnti parassite;
+  \item Sensore di forza;
+  \item Pulsante di arresto di emergenza;
+  \item Telecamera;
+  \item Telecamera termica;
+  \item Termocoppia;
+  \end{itemize}
+\item Fault check:
+  \begin{itemize}
+  \item Operatore;
+  \item Centralina di sicurezza;
+  \item Diodo led;
+  \end{itemize}
+\item Inserimento dei frutti:
+  \begin{itemize}
+  \item Manuale singolo;
+  \item Tramoggia;
+  \item Braccio automatico;
+  \item Nastro trasportatore;
+  \end{itemize}
+\item Veicolazione del frutto:
+  \begin{itemize}
+  \item Canaletta;
+  \item Tubo flessibile;
+  \item Tubo rigido;
+  \item Flusso d'acqua;
+  \item Letto d'aria;
+  \end{itemize}
+\item Veicolazione del nocciolo:
+  \begin{itemize}
+  \item Gravità;
+  \item Forza centrifuga;
+  \item Canaletta;
+  \item Tubo flessibile;
+  \item Tubo rigido;
+  \item Flusso d'acqua;
+  \item Letto d'aria;
+  \end{itemize}
+\item Veicolazione della polpa:
+  \begin{itemize}
+  \item Canaletta;
+  \item Tubo flessibile;
+  \item Tubo rigido;
+  \item Flusso d'acqua;
+  \item Letto d'aria;
+  \end{itemize}
+\item Espulsione del nocciolo:
+  \begin{itemize}
+  \item Gravità;
+  \item Forza centrifuga;
+  \item Canaletta;
+  \item Tubo flessibile;
+  \item Tubo rigido;
+  \item Flusso d'acqua;
+  \item Letto d'aria;
+  \end{itemize}
+\item Espulsione della polpa:
+  \begin{itemize}
+  \item Canaletta;
+  \item Tubo flessibile;
+  \item Tubo rigido;
+  \item Flusso d'acqua;
+  \item Letto d'aria;
+  \end{itemize}
+\end{itemize}
+
 \end{document}
-%   P R   f i t t i z i a   p e r   a b i l i t a r e   i   c o m m e n t i   s u   m a i n . t e x  
- 
