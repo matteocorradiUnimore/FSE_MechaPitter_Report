@@ -964,4 +964,100 @@ Package pdftex.def Info: Images/frequenzaUtilizzo.png  used on input line 227.
 <Images/tipologiaFrutta.png, id=114, 3797.93906pt x 2064.21187pt>
 File: Images/tipologiaFrutta.png Graphic file (type png)
 <use Images/tipologiaFrutta.png>
-Package pdftex.
+Package pdftex.def Info: Images/tipologiaFrutta.png  used on input line 239.
+(pdftex.def)             Requested size: 455.24411pt x 247.41125pt.
+<Images/situazioniImpiego.png, id=115, 6356.74875pt x 3407.22937pt>
+File: Images/situazioniImpiego.png Graphic file (type png)
+<use Images/situazioniImpiego.png>
+Package pdftex.def Info: Images/situazioniImpiego.png  used on input line 247.
+(pdftex.def)             Requested size: 455.24411pt x 243.98938pt.
+
+
+[8
+
+
+
+ <./Images/progettazioneConcettuale.png>]
+
+[9 <./Images/sesso.png> <./Images/fasciaEtà.png> <./Images/impiego.png> <./Images/conoscenzaDenocciolatore.png> <./Images/possibileUtilizzo.png> <./Images/frequenzaUtilizzo.png>]
+
+[10 <./Images/tipologiaFrutta.png> <./Images/situazioniImpiego.png>]
+<Images/caratterizzazioneBisogni.png, id=138, 7142.685pt x 3587.15157pt>
+File: Images/caratterizzazioneBisogni.png Graphic file (type png)
+<use Images/caratterizzazioneBisogni.png>
+Package pdftex.def Info: Images/caratterizzazioneBisogni.png  used on input line 261.
+(pdftex.def)             Requested size: 702.78308pt x 352.93422pt.
+
+
+[11 <./Images/caratterizzazioneBisogni.png>]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 12.0pt on input line 270.
+
+
+[12
+
+
+]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 14.4pt on input line 288.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 14.4pt on input line 288.
+<Images/1bisogni.png, id=157, 2211.01031pt x 3103.84593pt>
+File: Images/1bisogni.png Graphic file (type png)
+<use Images/1bisogni.png>
+Package pdftex.def Info: Images/1bisogni.png  used on input line 292.
+(pdftex.def)             Requested size: 295.90588pt x 415.35434pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[13]
+
+[14 <./Images/1bisogni.png>]
+<Images/8casaQualitàV2.png, id=169, 14613.59625pt x 9411.66188pt>
+File: Images/8casaQualitàV2.png Graphic file (type png)
+<use Images/8casaQualitàV2.png>
+Package pdftex.def Info: Images/8casaQualitàV2.png  used on input line 304.
+(pdftex.def)             Requested size: 702.78308pt x 452.51578pt.
+
+
+LaTeX Warning: Float too large for page by 21.77165pt on input line 307.
+
+
+
+[15 <./Images/8casaQualitàV2.png>]
+
+[16
+
+
+]
+
+[17]
+
+[18]
+
+[19] (./main.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2020/03/25>
+ ***********
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 0646332185F1006E55D65D6B0A0C6E47;2291.
+ ) 
+Here is how much of TeX's memory you used:
+ 24139 strings out of 469590
+ 440278 string characters out of 5474519
+ 851853 words of memory out of 5000000
+ 50559 multiletter control sequences out of 15000+600000
+ 675663 words of font info for 120 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 75i,8n,117p,1124b,1253s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newtx/ztmb.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newtx/ztmr.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
+Output written on main.pdf (19 pages, 6798650 bytes).
+PDF statistics:
+ 225 PDF objects out of 1000 (max. 8388607)
+ 166 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 26255 words of extra memory for PDF output out of 29859 (max. 10000000)
+
